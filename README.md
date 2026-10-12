@@ -46,7 +46,7 @@ The project uses a Mamdani-type Fuzzy Logic Controller (FLC) with a cabin therma
 | Simulation duration | 600 seconds |
 | Simulation time step | 1 second |
 
-*These values correspond to the configured simulation model and may be adjusted for further experiments.*
+
 
 ## System Working
 
@@ -97,7 +97,6 @@ Advanced-Vehicle-HVAC-Thermal-Management/
 └── LICENSE
 ```
 
-*The filenames above are examples. Keep only files that you have created and intend to upload.*
 
 ## Simulation Outputs and Results
 
@@ -107,7 +106,6 @@ This section contains the output files generated during the simulation and analy
 
 **File:** `outputs/cabin_temperature_response.png`
 
-Add your cabin temperature versus time graph here to demonstrate how the controller regulates cabin temperature toward the desired setpoint.
 
 <img width="572" height="451" alt="Screenshot 2026-09-25 110846" src="https://github.com/user-attachments/assets/a42a9c3c-977b-4c91-ab52-a5a6e301f396" />
 
@@ -115,7 +113,6 @@ Add your cabin temperature versus time graph here to demonstrate how the control
 
 **File:** `outputs/ambient_temperature_variation.png`
 
-Add the graph showing ambient temperature variations used in the simulation.
 
 <img width="548" height="445" alt="Screenshot 2026-09-25 110323" src="https://github.com/user-attachments/assets/0b472857-a147-4141-908a-d160574e25e1" /><img width="587" height="437" alt="Screenshot 2026-09-25 110617" src="https://github.com/user-attachments/assets/fe2df465-b378-48ea-9186-8fed6c59f761" />
 <img width="547" height="446" alt="Screenshot 2026-09-25 110522" src="https://github.com/user-attachments/assets/a743b00a-c6b6-4dfd-a844-aa7ef4da7be7" />
@@ -125,23 +122,9 @@ Add the graph showing ambient temperature variations used in the simulation.
 
 **File:** `outputs/hvac_control_output.png`
 
-Add your controller output graph here to illustrate how the HVAC control action changes in response to temperature conditions.
-
 <img width="571" height="446" alt="Screenshot 2026-09-25 110250" src="https://github.com/user-attachments/assets/db8b7502-47de-425f-96e2-2327704bdace" /><img width="1197" height="797" alt="Screenshot 2026-10-03 163717" src="https://github.com/user-attachments/assets/ba81f18c-9e2d-4f64-8887-9660ee836d2e" />
 
-### 4. Simulation Data
 
-**File:** `outputs/HVAC_24hr_results.csv`
-
-Store exported simulation data in CSV format when available. This file can be used for further analysis and visualization using Python, MATLAB, or spreadsheet software.
-
-**Suggested data columns:**
-
-- Time
-- Ambient temperature
-- Cabin temperature
-- Desired temperature
-- HVAC control output
 
 
 ## Applications
